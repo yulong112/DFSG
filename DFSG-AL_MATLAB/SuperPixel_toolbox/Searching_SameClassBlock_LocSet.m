@@ -1,0 +1,40 @@
+function matching_set=Searching_SameClassBlock_LocSet(centerloc,TruthMap)
+TruthMap1D=TruthMap(:);
+objectlabel=TruthMap1D(centerloc);
+
+[Height,Width]=size(TruthMap);
+[centerYCoord, centerXCoord] = f1DTo2DCoord([Height, Width],centerloc);
+updated_searching_center_set=[centerloc];
+matching_set=[];
+used_set=[centerloc];
+while 1
+    candidateLocSet=[];
+    for search_i=1:length(updated_searching_center_set)
+        [TempYCoord, TempXCoord] = f1DTo2DCoord([Height, Width],updated_searching_center_set(search_i));
+        
+        candidateXCoord=[TempXCoord;TempXCoord;TempXCoord-1;TempXCoord+1];
+        candidateYCoord=[TempYCoord-1;TempYCoord+1;TempYCoord;TempYCoord];
+        borderFilter=(candidateXCoord>=1)&(candidateXCoord<=Width)&(candidateYCoord>=1)&(candidateYCoord<=Height);
+        candidateXCoord=candidateXCoord(borderFilter);
+        candidateYCoord=candidateYCoord(borderFilter);
+        
+        candidateLocSet_tmp=(candidateXCoord-1)*Height+candidateYCoord;
+        
+        repetitionFilter=~ismember(candidateLocSet_tmp,used_set);
+        candidateLocSet_tmp=candidateLocSet_tmp(repetitionFilter);
+        
+        candidateLocSet=[candidateLocSet;candidateLocSet_tmp];
+    end
+    candidateLocSet=unique(candidateLocSet);
+    used_set=[used_set;candidateLocSet];
+    
+    matchFilter=TruthMap1D(candidateLocSet)==objectlabel;
+    SameClassBlock_LocSet=candidateLocSet(matchFilter);
+    
+    if isempty(SameClassBlock_LocSet)
+        break;
+    end
+    
+    matching_set=[matching_set;SameClassBlock_LocSet];
+    updated_searching_center_set=SameClassBlock_LocSet;
+end
