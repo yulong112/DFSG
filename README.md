@@ -1,6 +1,6 @@
 # DFSG
 
-A novel deep fusion paradigm for multi-scale superpixel graphs (DFSG) has been accepted by IEEE Transactions on Image Processing.
+Multi-scale Meets Active Learning: A novel deep fusion paradigm for multi-scale superpixel graphs (DFSG) has been accepted by IEEE Transactions on Image Processing.
 
 ---
 
