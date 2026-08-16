@@ -36,7 +36,7 @@ Deep learning (DL) has attracted considerable attention in the field of hyperspe
 
 ### DFSGCN Environment:
 
-	Python 3.7
+	Python ≥3.7
 	torch 1.12.1+cu113
 	torchvision 0.13.1+cu113
 	matplotlib 3.5.3
