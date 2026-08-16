@@ -58,7 +58,7 @@ Deep learning (DL) has attracted considerable attention in the field of hyperspe
 ---
 ### Citation
 
-Early Access is available now at https://ieeexplore.ieee.org/document/11627194
+The paper is available now at https://ieeexplore.ieee.org/document/11627194
 
 If this work is helpful to you, please citing our work as follows:
 
