@@ -62,16 +62,17 @@ Early Access is available now at https://ieeexplore.ieee.org/document/11627194
 
 If this work is helpful to you, please citing our work as follows:
 
-L. Yu, J. Li, A. Plaza and L. Zhuo, "Multi-scale Meets Active Learning: A Deep Graph Fusion Paradigm for Hyperspectral Image Classification," in IEEE Transactions on Image Processing, doi: 10.1109/TIP.2026.3715847.
+L. Yu, J. Li, A. Plaza and L. Zhuo, "Multi-scale Meets Active Learning: A Deep Graph Fusion Paradigm for Hyperspectral Image Classification," in IEEE Transactions on Image Processing, vol. 35, pp. 8619-8634, 2026, doi: 10.1109/TIP.2026.3715847.
+
 
 	@ARTICLE{11627194,
 	  author={Yu, Long and Li, Jun and Plaza, Antonio and Zhuo, Li},
-	  journal={IEEE Transactions on Image Processing},
-	  title={Multi-scale Meets Active Learning: A Deep Graph Fusion Paradigm for Hyperspectral Image Classification},
+	  journal={IEEE Transactions on Image Processing}, 
+	  title={Multi-Scale Meets Active Learning: A Deep Graph Fusion Paradigm for Hyperspectral Image Classification}, 
 	  year={2026},
-	  volume={},
+	  volume={35},
 	  number={},
-	  pages={1-16},
+	  pages={8619-8634},
 	  keywords={Labeling;Aluminum;Modeling;Pixel;Hyperspectral imaging;Image classification;Educational institutions;Matrices;IP networks;Timing;Graph convolution network (GCN);multi-scale;deep fusion paradigm;few samples;hyperspectral image (HSI) classification},
 	  doi={10.1109/TIP.2026.3715847}}
 
