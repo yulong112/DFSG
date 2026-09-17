@@ -20,7 +20,7 @@ Fig. 2. The overall framework of DFSGCN.
 
 ### **Related extension methods**
 
-Our DFSG paradigm has been successfully applied to the field of multi-modal remote sensing data (HSI + LiDAR) fusion, constructing a new multi-modal model:
+Our DFSG paradigm has been successfully applied to the field of multi-modal remote sensing data (HSI + LiDAR) fusion, constructing a new multi-modal model GLAC-Net:
 
 [Global–Local Aligned Cross-Modal Network for Hyperspectral Image and LiDAR Data Classification](https://ieeexplore.ieee.org/document/11435417), IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2026.
 
@@ -33,7 +33,7 @@ Fig. 3. Overall framework of GLAC-Net.
 Fig. 4. The performance of GLAC-Net.
 
 ### **Future Prospects**
-Continuous Learning across Scenes in Remote Sensing
+Continuous Learning across Scenes in Remote Sensing.
 
 
 ### **Three algorithm implementations of our paradigm:**
