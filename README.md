@@ -44,7 +44,7 @@ Fig. 2. The overall framework of DFSGCN.
    
    _① transductive inference for semi-supervised learning_
    
-   _② minimal human-computer interaction based active learning_
+   _② "minimal human-computer interaction" based active learning method_
 
 ---
 
