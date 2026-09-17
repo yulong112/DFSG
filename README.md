@@ -26,8 +26,11 @@ Our DFSG paradigm has been successfully applied to the field of multi-modal remo
 
 [Yanhui Chen](https://ieeexplore.ieee.org/author/37089883583), [Long Yu](https://faculty.scut.edu.cn/zdhkxygc/yl31_en/main.htm), [Yilin Duan](https://orcid.org/0009-0001-1940-9581), [Zhaozhao Zeng](https://xplorestaging.ieee.org/author/37088750424), [Jia Chen](https://ieeexplore.ieee.org/author/37087092939), and [Jun Li](https://grzy.cug.edu.cn/lijun1/en/index.htm).
 
-
+<div align=center><img src="/GLAC-Net.png" width="90%" height="90%"></div>
 Fig. 3. Overall framework of GLAC-Net.
+
+<div align=center><img src="/GLAC-Net-performance.png" width="50%" height="50%"></div>
+Fig. 4. The performance of GLAC-Net.
 
 ### **Future Prospects**
 Continuous Learning across Scenes in Remote Sensing
