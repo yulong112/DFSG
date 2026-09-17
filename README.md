@@ -2,11 +2,13 @@ DFSG, A novel deep fusion paradigm for multi-scale superpixel graphs, IEEE TIP, 
 ==
 [Long Yu](https://faculty.scut.edu.cn/zdhkxygc/yl31_en/main.htm), [Jun Li](https://grzy.cug.edu.cn/lijun1/en/index.htm), [Antonio Plaza](https://www2.umbc.edu/rssipl/people/aplaza/), and [Li Zhuo](https://gp.sysu.edu.cn/en/teacher/189).
 ***
----
+
 Code for the paper: [Multi-Scale Meets Active Learning: A Deep Graph Fusion Paradigm for Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/11627194), IEEE Transactions on Image Processing, 2026.
 
+<div align=center><img src="/DFSG-AL.png" width="90%" height="90%"></div>
 Fig. 1. Architecture of the proposed DFSG-AL method.
 
+<div align=center><img src="/DFSGCN.png" width="90%" height="90%"></div>
 Fig. 2. The overall framework of DFSGCN.
 
 ### **Abstract**
@@ -37,7 +39,9 @@ Deep learning (DL) has attracted considerable attention in the field of hyperspe
 
 	Use `/DFSG-AL_MATLAB/demo_DFSG-AL_smalldata.m` or `/DFSG-AL_MATLAB/demo_DFSG-AL_bigdata.m`
 
-   _Description: ① transductive inference for semi-supervised learning; ② minimal human-computer interaction based active learning_
+   _Description: _
+   _① transductive inference for semi-supervised learning_
+   _② minimal human-computer interaction based active learning_
 
 ---
 
@@ -67,7 +71,7 @@ Deep learning (DL) has attracted considerable attention in the field of hyperspe
 
 The paper is available now at https://ieeexplore.ieee.org/document/11627194
 
-If this work is helpful to you, please citing our work as follows:
+If this work is helpful to you, please cite our paper as follows:
 
 L. Yu, J. Li, A. Plaza and L. Zhuo, "Multi-scale Meets Active Learning: A Deep Graph Fusion Paradigm for Hyperspectral Image Classification," in IEEE Transactions on Image Processing, vol. 35, pp. 8619-8634, 2026, doi: 10.1109/TIP.2026.3715847.
 
