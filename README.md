@@ -8,12 +8,13 @@ Code for the paper: [Multi-Scale Meets Active Learning: A Deep Graph Fusion Para
 <div align=center><img src="/DFSG-AL.png" width="90%" height="90%"></div>
 Fig. 1. Architecture of the proposed DFSG-AL method.
 
-<div align=center><img src="/DFSGCN.png" width="90%" height="90%"></div>
-Fig. 2. The overall framework of DFSGCN.
-
 ### **Abstract**
 
 Deep learning (DL) has attracted considerable attention in the field of hyperspectral image classification (HSIC). However, most DL methods still suffer from two problems: overfitting and oversmoothing, particularly when dealing with scarce labeled samples. A major challenge is that they do not make full use of the relationships among a large number of unlabeled samples and multi-scale information in structural relationships, resulting in the loss of multi-scale information. Moreover, prior information such as labels is not used to explicitly learn and modify the graph structure (including nodes, the sparsity of connections, and edge weights). To address these issues, we propose a novel deep fusion paradigm for multi-scale superpixel graphs (DFSG). Our new DFSG integrates multi-scale graphs (at both the graph-level and the feature-level) to reduce information loss while the re-segmentation based graph correction module adaptively learns new graph structures during the active learning (AL) process. In our proposed iterative updating mechanism, AL and our multi-scale methods help each other, forming a symbiotic unified DFSG-AL framework. Experiments on five real hyperspectral image (HSI) datasets demonstrate that our DFSG-AL can achieve remarkable performance in few-sample HSIC.
+
+
+<div align=center><img src="/DFSGCN.png" width="90%" height="90%"></div>
+Fig. 2. The overall framework of DFSGCN.
 
 ---
 
@@ -39,8 +40,10 @@ Deep learning (DL) has attracted considerable attention in the field of hyperspe
 
 	Use `/DFSG-AL_MATLAB/demo_DFSG-AL_smalldata.m` or `/DFSG-AL_MATLAB/demo_DFSG-AL_bigdata.m`
 
-   _Description: _
+   _Description:_
+   
    _① transductive inference for semi-supervised learning_
+   
    _② minimal human-computer interaction based active learning_
 
 ---
